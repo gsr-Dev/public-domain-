@@ -1,0 +1,26 @@
+{
+  "name": "gregsite",
+  "version": "1.0.0",
+  "description": "Welcome to my website",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "handlebars": "^4.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsr-Dev/public-domain-.git"
+  },
+  "author": "G.S.Rabone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsr-Dev/public-domain-/issues"
+  },
+  "homepage": "https://github.com/gsr-Dev/public-domain-#readme"
+}
