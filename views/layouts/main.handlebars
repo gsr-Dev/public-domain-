@@ -6,17 +6,38 @@
         <title>My website</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="theme.css"> 
+        
+        <!--CSS stylesheet-->
+        <link rel="stylesheet" href="/css/styles.css">   
+         
+        <!--icons-->
+        <script src="https://kit.fontawesome.com/af12ffe99e.js" crossorigin="anonymous"></script>
+        
+        
+        <!--Siimple CSS-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.3.1/dist/siimple.min.css">
 </head>
     <body>
-        <div class="siimple-navbar siimple-navbar--light simple-navbar--fluid">
-            <div class="siimple-navbar-title">gsr-Dev</div>
-            <div class="siimple--float-right">
-                <a class="siimple-navbar-item">Link 1</a>
-                <a class="siimple-navbar-item">Link 2</a>
+        <header> 
+            <div id="jumbo" class="siimple-jumbotron siimple-jumbotron--fluid siimple--bg-success siimple--width-25 siimple--mx-auto siimple--rounded" align="center"> 
+                <div class="siimple-jumbotron-title">Greg Rabone</div>
+                <div class="siimple-jumbotron-subtitle">Web development</div>
             </div>
-        </div> 
-        {{{body}}}
+            <div class="siimple-navbar siimple--width-50 siimple--mx-auto" align="center">
+                <div class="siimple-btn-group siimple--float-none">
+                    <a class="siimple-navbar-item siimple-nav-item--selected siimple--color-success">+ Bio</a>
+                    <a class="siimple-navbar-item">Blog</a> 
+                    <a class="siimple-navbar-item">Location</a>
+                    <a class="siimple-navbar-item">Contact</a>
+                </div>
+            </div> 
+        </header>
+        {{{body}}} 
+        <footer>
+            <div class="siimple-footer" align="center"> 
+                <i class="fab fa-linkedin fa-3x" href="#"></i> 
+                <i class="fab fa-github-square fa-3x"></i>
+            </div>
+        </footer>
     </body>
 </html>
