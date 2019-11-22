@@ -1,10 +1,12 @@
 const express = require("express"); 
 const router = express.Router(); 
 
-router.get("/", async function(req, res) {
-    
-
+router.get("/", function(req, res) {
     res.render("home"); 
+}); 
+
+router.get("/contact", function(req, res) {
+    res.render("contact");
 });
 
 module.exports = router; 

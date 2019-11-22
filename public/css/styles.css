@@ -7,6 +7,12 @@
     color: white; 
 } 
 
-i{ 
-    opacity: 20;
+button { 
+    background-color: white;
+    border: 0px; 
+    cursor: pointer;
+} 
+
+button:hover { 
+    transform: scale(1.1);
 }
