@@ -1,22 +1,22 @@
+html {
+    overflow-x: hidden;
+}
+
 #jumbo {
     margin-top: 25px; 
     padding-top: 25px; 
     padding-bottom: 25px; 
     padding-left: 25px; 
     padding-right: 25px; 
-    color: white; 
-} 
-
-button { 
-    background-color: white;
-    border: 0px; 
-    cursor: pointer;
-} 
-
-button:hover { 
-    transform: scale(1.1);
 } 
 
 a { 
     color: inherit
+} 
+
+
+#profile-picture {
+    height: 200px;
+    width: auto; 
+    border-radius: 25px;
 }
