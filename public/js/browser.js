@@ -1,4 +1,4 @@
-window.addEventListener('load', function () {
+window.addEventListener('load', function() {
   let urlLocation = window.location.pathname;
   
   if (urlLocation == '/contact') {
