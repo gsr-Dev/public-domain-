@@ -19,4 +19,12 @@ a {
     height: 200px;
     width: auto; 
     border-radius: 25px;
+}  
+
+embed { 
+    width: 50%;
+    height: 500px; 
 }
+
+
+

@@ -5,8 +5,8 @@ router.get('/', function(req, res) {
     res.render('home'); 
 }); 
 
-router.get('/contact', function(req, res) {
-    res.render('contact');
+router.get('/resume', function(req, res) {
+    res.render('resume');
 }); 
 
 router.get('/blog', function(req, res) {
