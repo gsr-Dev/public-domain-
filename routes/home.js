@@ -15,6 +15,10 @@ router.get('/blog', function(req, res) {
 
 router.get('/location', function(req, res) {
     res.render('location'); 
+});  
+
+router.get('*', function(req, res) {
+    res.render('fourohfour'); 
 }); 
 
 module.exports = router; 
